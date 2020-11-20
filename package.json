@@ -1,0 +1,22 @@
+{
+  "name": "jarvis-kiosk",
+  "version": "1.0.0",
+  "description": "Jarvis-Kiosk Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rshyam2/Jarvis-Kiosk.git"
+  },
+  "author": "R.Pokhrel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rshyam2/Jarvis-Kiosk/issues"
+  },
+  "homepage": "https://github.com/rshyam2/Jarvis-Kiosk#readme",
+  "dependencies": {
+    "chromium": "^3.0.2"
+  }
+}
