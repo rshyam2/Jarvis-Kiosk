@@ -1,2 +1,2 @@
 # Jarvis-Kiosk
-Kiosk Project
+Kiosk Project using Node.js, Javascript.
