@@ -1,0 +1,164 @@
+/* The screen is 1024 x 600 */
+body {
+    width: 1024px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    background-color:rgb(15, 34, 75);
+    /*z-index: 100;*/
+}
+div.clock{
+  position: relative;
+  width: 380px;
+  height: 140px;
+  border-radius: 10px;
+  border: 5px solid rgba(29, 41, 48, 0.952);
+  margin: 0;
+}
+div.time {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: monospace;
+    color: red;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+div.calendar {
+    position: relative;
+    width: 380px;
+    height: 45px;
+    border-radius: 10px;
+    border: 5px solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    margin: 0;
+}
+button.mon {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.mon span {
+    text-decoration: underline;
+}
+button.tue {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.tue span {
+    text-decoration: underline;
+}
+button.wed {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.wed span {
+    text-decoration: underline;
+}
+button.thu {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.thu span {
+    text-decoration: underline;
+}
+button.fri {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.fri span {
+    text-decoration: underline;
+}
+button.sat {
+    position: relative;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 2px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.sat span {
+    text-decoration: underline;
+}
+button.sun {
+    position: sticky;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid rgba(29, 41, 48, 0.952);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    margin: 0;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    background-color: rgb(15, 34, 75);
+}
+button.sun span {
+    text-decoration: underline;
+}
