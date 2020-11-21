@@ -1,4 +1,5 @@
 
+// function to display the time
 function getTimeNow() {
     var t = new Date();
     s = t.getSeconds();
@@ -9,6 +10,7 @@ function getTimeNow() {
     `${checkNum(h)} : ${checkNum(m)} : ${checkNum(s)}`;
     var cont = setInterval(getTimeNow, 500);
 };
+// function to underline the current day
 function getDay() {
     var d = new Date();
     day = d.getDay();
@@ -37,4 +39,6 @@ function getDay() {
             break;
     }
 };
+// may include functionality to open a terminal, but without a keyboard, 
+// it doesn't serve much 
 
