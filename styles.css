@@ -7,13 +7,22 @@ body {
     background-color:rgb(15, 34, 75);
     /*z-index: 100;*/
 }
-div.clock{
+div.frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 5px solid rgba(29, 41, 48, 0.952);
+    margin: 0;
+}
+#clock{
   position: relative;
   width: 380px;
   height: 140px;
   border-radius: 10px;
   border: 5px solid rgba(29, 41, 48, 0.952);
   margin: 0;
+  display: inline-block;
 }
 div.time {
     text-align: center;
@@ -34,9 +43,9 @@ div.calendar {
     border-radius: 10px;
     border: 5px solid rgba(29, 41, 48, 0.952);
     border-top: 0px;
-    margin: 0;
+    margin-right: 0px;
 }
-button.mon {
+button.day {
     position: relative;
     width: 50px;
     height: 45px;
@@ -51,114 +60,29 @@ button.mon {
     font-family: monospace;
     background-color: rgb(15, 34, 75);
 }
-button.mon span {
+button.day span {
     text-decoration: underline;
 }
-button.tue {
+#taskbar {
+    position: fixed;
+    width: 50px;
+    height: 190px;
+    border-radius: 10px;
+    border: 5px solid rgba(29, 41, 48, 0.952);
+    margin-bottom: 50%;
+}
+button.terminal {
     position: relative;
     width: 50px;
-    height: 45px;
+    height: 50px;
+    background-image: url(images/terminal.png);
+    background-position: center center;
+    background-repeat: no-repeat;
     border-radius: 5px;
     border: solid rgba(29, 41, 48, 0.952);
     border-top: 0px;
-    border-bottom: 0px;
-    border-right: 2px;
-    margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
-    background-color: rgb(15, 34, 75);
-}
-button.tue span {
-    text-decoration: underline;
-}
-button.wed {
-    position: relative;
-    width: 50px;
-    height: 45px;
-    border-radius: 5px;
-    border: solid rgba(29, 41, 48, 0.952);
-    border-top: 0px;
-    border-bottom: 0px;
-    border-right: 2px;
-    margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
-    background-color: rgb(15, 34, 75);
-}
-button.wed span {
-    text-decoration: underline;
-}
-button.thu {
-    position: relative;
-    width: 50px;
-    height: 45px;
-    border-radius: 5px;
-    border: solid rgba(29, 41, 48, 0.952);
-    border-top: 0px;
-    border-bottom: 0px;
-    border-right: 2px;
-    margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
-    background-color: rgb(15, 34, 75);
-}
-button.thu span {
-    text-decoration: underline;
-}
-button.fri {
-    position: relative;
-    width: 50px;
-    height: 45px;
-    border-radius: 5px;
-    border: solid rgba(29, 41, 48, 0.952);
-    border-top: 0px;
-    border-bottom: 0px;
-    border-right: 2px;
-    margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
-    background-color: rgb(15, 34, 75);
-}
-button.fri span {
-    text-decoration: underline;
-}
-button.sat {
-    position: relative;
-    width: 50px;
-    height: 45px;
-    border-radius: 5px;
-    border: solid rgba(29, 41, 48, 0.952);
-    border-top: 0px;
-    border-bottom: 0px;
-    border-right: 2px;
-    margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
-    background-color: rgb(15, 34, 75);
-}
-button.sat span {
-    text-decoration: underline;
-}
-button.sun {
-    position: sticky;
-    width: 50px;
-    height: 45px;
-    border-radius: 5px;
-    border: solid rgba(29, 41, 48, 0.952);
-    border-top: 0px;
-    border-bottom: 0px;
+    border-bottom: 2px;
     border-right: 0px;
     margin: 0;
-    color: red;
-    font-size: 18px;
-    font-family: monospace;
     background-color: rgb(15, 34, 75);
-}
-button.sun span {
-    text-decoration: underline;
 }

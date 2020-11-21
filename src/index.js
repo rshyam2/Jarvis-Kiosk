@@ -1,4 +1,5 @@
-// Logic for the HTML page displayed by Chromium
+
+// function to display the time
 function getTimeNow() {
     var t = new Date();
     s = t.getSeconds();
@@ -9,10 +10,11 @@ function getTimeNow() {
     `${checkNum(h)} : ${checkNum(m)} : ${checkNum(s)}`;
     var cont = setInterval(getTimeNow, 500);
 };
+// function to underline the current day
 function getDay() {
     var d = new Date();
     day = d.getDay();
-    console.log(day);
+    console.log(`The number for today: ${day}`);
     switch (day) {
         case 1:
             document.getElementById('01').innerHTML = "<span>Mon</span>";
@@ -37,4 +39,6 @@ function getDay() {
             break;
     }
 };
+// may include functionality to open a terminal, but without a keyboard, 
+// it doesn't serve much 
 
