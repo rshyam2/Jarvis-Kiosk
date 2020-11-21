@@ -162,3 +162,13 @@ button.sun {
 button.sun span {
     text-decoration: underline;
 }
+div.taskbar {
+    position: fixed;
+    left: 400px;
+    top: 10px;
+    width: 70px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid rgba(29, 41, 48, 0.952);
+    margin: 0;
+}

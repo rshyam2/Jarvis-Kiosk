@@ -1,4 +1,4 @@
-// Logic for the HTML page displayed by Chromium
+
 function getTimeNow() {
     var t = new Date();
     s = t.getSeconds();
@@ -12,7 +12,7 @@ function getTimeNow() {
 function getDay() {
     var d = new Date();
     day = d.getDay();
-    console.log(day);
+    console.log(`The number for today: ${day}`);
     switch (day) {
         case 1:
             document.getElementById('01').innerHTML = "<span>Mon</span>";
