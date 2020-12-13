@@ -34,8 +34,8 @@ function getDay() {
         case 6:
             document.getElementById('06').innerHTML = "<span>Sat</span>";
             break;
-        case 7:
-            document.getElementById('06').innerHTML = "<span>Sat</span>";
+        case 0:
+            document.getElementById('07').innerHTML = "<span>Sun</span>";
             break;
     }
 };
